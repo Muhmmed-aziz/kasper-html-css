@@ -433,13 +433,11 @@ header nav .form i {
 .portfolio .images .box img {
   width: 400px;
   height: 250px;
-  max-width: 100%;
   transition: 0.3s;
 }
 @media (min-width:768px) {
   .portfolio .images .box img {
     width: 100%;
-    max-width: 100%;
   }
 }
 .portfolio .images .box .text {
@@ -540,7 +538,7 @@ header nav .form i {
 @media (max-width:767px) {
   .about img {
     bottom: -60px;
-    margin-top: -60px;
+    margin-top:-60px;
   }
 }
 /* end about  */
@@ -571,7 +569,7 @@ header nav .form i {
 .stats .container .box {
   color: white;
   background-color: var(--transparent-color);
-  padding: 30px;
+  padding: 50px;
 }
 @media (max-width:767px) {
   .stats .container .box {
