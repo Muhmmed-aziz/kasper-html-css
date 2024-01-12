@@ -439,6 +439,7 @@ header nav .form i {
 @media (min-width:768px) {
   .portfolio .images .box img {
     width: 100%;
+    max-width: 100%;
   }
 }
 .portfolio .images .box .text {
@@ -570,7 +571,7 @@ header nav .form i {
 .stats .container .box {
   color: white;
   background-color: var(--transparent-color);
-  padding: 50px;
+  padding: 30px;
 }
 @media (max-width:767px) {
   .stats .container .box {
